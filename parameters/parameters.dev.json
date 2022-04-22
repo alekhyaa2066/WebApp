@@ -1,0 +1,91 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "0b9c4dfd-d9ca-477a-b279-897de40f2d08"
+        },
+
+        "resourceGroupName": {
+            "value":"Bicep_task2"
+        },
+
+        "resourceGroupLocation": {
+            "value": "westus"
+        },
+
+        "env": {
+            "value": "dev"
+        },
+        
+        "taskNumber": {
+            "value": "2"
+        },
+
+        "vnetName": {
+            "value": "bicepVnet"
+        },
+
+        "virtualNetwork_CIDR": {
+            "value": "10.0.0.0/16"
+        },
+
+        "subnet1_CIDR": {
+            "value": "10.0.0.0/24"
+        },
+
+        "subnet2_CIDR": {
+            "value": "10.0.1.0/24"
+        },
+
+        "appServicePlanName": {
+            "value": "webAppServicePlan"
+        },
+
+        "appServicePlanSkuDev": {
+            "value": "F1"
+        },
+
+        "appServicePlanSkuProd": {
+            "value": "P1v2"
+        },
+
+        "osType": {
+            "value": "linux"
+        },
+
+        "webAppName": {
+            "value": "task2webApp"
+        },
+
+        "privateEndpointName": {
+            "value": "webAppPrivateEndPoint"
+        },
+
+        "privateLinkName": {
+            "value": "webAppServicePrivateLink"
+        },
+
+        "privateDnsZoneName": {
+            "value": "bicep.task2.webApp"
+        },
+
+        "vmName": {
+            "value": "alex-vm1"
+        },
+
+        "adminPassword": {
+            "value": "AArunkumar@2066"
+        },
+
+        "adminUserName": {
+            "value": "alekhya"
+        },
+
+        "vmSize": {
+            "value": "Standard_DS1_v2"
+        }
+
+        
+    }
+}
