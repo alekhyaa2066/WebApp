@@ -145,34 +145,3 @@ module windowsvm '.bicep/virtualMachine.bicep' = {
     subnets
   ]
 }
-// param accessTier string
-// param blobContainer string
-// param  storageAccountName string
-// param storageAccountSku object
-// module storage 'modules/storage/storageAccount.bicep' = {
-//   name: 'storageAccount'
-//   params: {
-//     accessTier: accessTier
-//     //blobContainer: blobContainer
-//     Location: resourceGroupLocation
-//     storageAccountName:  storageAccountName
-//     storageAccountSku: storageAccountSku
-//   }
-// }
-
-//    params.json
-
-// "accessTier": {
-//   "value": "Hot"
-// },
-
-// "storageAccountName": {
-//   "value": "alexstorages2066"
-// },
-
-// "storageAccountSku": {
-//   "value": {
-//       "sku": "Standard_LRS",
-//       "kind": "StorageV2"
-//   }
-// }
